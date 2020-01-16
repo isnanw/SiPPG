@@ -19,16 +19,16 @@
           <div class="form-input-content">
             <div class="card login-form mb-0">
               <div class="card-body pt-5">
-                <a class="text-center" href="index.html">
+                <a class="text-center" href="">
                   <h4><?= $title ?></h4>
                 </a>
 
                 <form class="mt-5 mb-5 login-input">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="email" class="form-control" placeholder="Email" name='email'>
                   </div>
                   <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Password">
+                    <input type="password" class="form-control" placeholder="Password" name="password">
                   </div>
                   <button class="btn login-form__btn submit w-100">Sign In</button>
                 </form>
